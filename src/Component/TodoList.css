@@ -1,0 +1,52 @@
+/* TodoList.css */
+
+.todo-container {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  button {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-count {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .tasks {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .tasks > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
